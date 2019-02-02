@@ -9,35 +9,34 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/din_condensed"
         android:text="Donate Blood"
         android:textColor="@android:color/background_dark"
-        android:textSize="30sp"
+        android:textSize="36sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/slide_desc"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:layout_height="100dp"
         android:layout_below="@+id/slide_headlines"
-        android:layout_alignStart="@+id/slide_headlines"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="-57dp"
-        android:layout_marginTop="320dp"
-        android:text="It is good to do one thing in life which is eating,sleeing and coding."
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/avenir_next_regular"
+        android:text="Get notified when there is a need of blood with the same blood group as yours."
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="18sp" />
+        android:textSize="14sp" />
 
     <ImageView
         android:id="@+id/slideimages"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_alignParentTop="true"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="80dp"
-        android:layout_marginTop="250dp"
-        app:srcCompat="@drawable/eat_icons" />
+        android:layout_marginTop="210dp"
+        app:srcCompat="@drawable/walk_1" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline2"

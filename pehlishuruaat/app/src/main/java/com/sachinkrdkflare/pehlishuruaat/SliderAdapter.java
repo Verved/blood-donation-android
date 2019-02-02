@@ -11,7 +11,6 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-
 public class SliderAdapter extends PagerAdapter {
 
     Context context;
@@ -26,9 +25,9 @@ public class SliderAdapter extends PagerAdapter {
 
     public int[] slideimages = {
 
-            R.drawable.eat_icons,
-            R.drawable.sleep_icon,
-            R.drawable.code_icon
+            R.drawable.walk_1,
+            R.drawable.walk_2,
+            R.drawable.walk_3
     };
 
     public String[] slide_headlines = {
@@ -58,6 +57,7 @@ public class SliderAdapter extends PagerAdapter {
     @NonNull
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
+
         layoutInflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
         View view  = layoutInflater.inflate(R.layout.slide_layout,container,false);
 
